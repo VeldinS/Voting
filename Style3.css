@@ -57,10 +57,11 @@ footer{
 
 .h2-1{
     color: white;
-    font-size: 30px ;
+    font-size: 60px ;
     text-align: center;
     padding: 40px;
-    letter-spacing: 7px;
+    letter-spacing: 15px;
+    margin-bottom: 20px;
 }
 
 .button1{
@@ -113,18 +114,25 @@ footer{
     color: black;
 }
 
-input[type=text],
+input[type=checkbox],
 select,
 textarea {
-    width: 80%;
-    padding: 10px;
-    border: 2px solid black;
-    border-radius: 2%;
-    box-sizing: border-box;
-    margin-top: 10px;
-    margin-bottom: 16px;
-    margin-left: 75px;
-    background-color: darkgrey;
+    float: left;
+    margin-left: 40px;
+}
+
+.checkbox{
+    width: 25px;
+    height: 25px;
+    margin-right: 50px;
+}
+
+form{
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: black;
+    font-weight: 600;
 }
 
 input[type=submit] {
@@ -134,7 +142,8 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    margin-left: 360px;
+    margin-left: 250px;
+    margin-top: 50px;
 }
 
 input[type=submit]:hover {

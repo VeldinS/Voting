@@ -57,10 +57,11 @@ footer{
 
 .h2-1{
     color: white;
-    font-size: 30px ;
+    font-size: 60px ;
     text-align: center;
     padding: 40px;
-    letter-spacing: 7px;
+    letter-spacing: 15px;
+    margin-bottom: 20px;
 }
 
 .button1{
@@ -69,7 +70,7 @@ footer{
     background-color: indigo;
     text-align: center;
     margin-left: 270px;
-    margin-top: 50px;
+    margin-top: 100px;
     border-radius: 2%;
 }
 
@@ -113,31 +114,18 @@ footer{
     color: black;
 }
 
-input[type=text],
-select,
-textarea {
-    width: 80%;
-    padding: 10px;
-    border: 2px solid black;
-    border-radius: 2%;
-    box-sizing: border-box;
-    margin-top: 10px;
-    margin-bottom: 16px;
-    margin-left: 75px;
-    background-color: darkgrey;
-}
-
-input[type=submit] {
-    background-color: darkslateblue;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-left: 360px;
-}
 
 input[type=submit]:hover {
     background-color: goldenrod;
     color: black;
 }
+
+.p3{
+    font-size: 25px;
+    margin-left: 20px;
+    padding: 5px;
+    background-color: goldenrod;
+    width: max-content;
+    color: black;
+}
+
