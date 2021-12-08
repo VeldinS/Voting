@@ -1,0 +1,114 @@
+html,
+body{
+    overflow-x: hidden;
+    font-size: 8px;
+    background-color: darkslategrey;
+    color: whitesmoke;
+}
+
+.logo-image{
+    border-radius: 50%;
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+.header1{
+    float: left;
+}
+
+.h3-1{
+    float: right;
+    padding: 40px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.h3-1:hover,
+.h3-1:active{
+    color: black;
+    font-size: 25px;
+}
+
+.main-box{
+    background-color: steelblue;
+    margin: 40px auto;
+    width: 800px;
+    height: 430px;
+}
+
+footer{
+    background-color: indigo;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:50px;
+}
+.text1{
+    margin-top: 18px;
+    margin-left: 635px;
+    font-size: 15px;
+}
+
+.h2-1{
+    color: white;
+    font-size: 40px ;
+    text-align: center;
+    padding: 60px;
+    letter-spacing: 7px;
+}
+
+.button1{
+    width: 250px;
+    height: 80px;
+    background-color: indigo;
+    text-align: center;
+    margin-left: 270px;
+    margin-top: 50px;
+    border-radius: 2%;
+}
+
+.button2{
+    width: 200px;
+    height: 30px;
+    background-color: indigo;
+    text-align: center;
+    border-radius: 5%;
+    float: right;
+    margin-right: 20px;
+}
+
+.button2 p{
+    color: white;
+    padding: 6px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+.p1{
+    text-decoration: none;
+}
+
+.button1 p{
+    color: white;
+    padding: 23px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+.button1:hover,
+.button1:active{
+    background-color: goldenrod;
+}
+
+.button1:hover p,
+.button1:active p{
+    color: black;
+}
